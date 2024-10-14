@@ -1,0 +1,93 @@
+
+/* This is the CSS file for the InventoryPage component */
+table { 
+  border-collapse: separate; 
+  border-spacing: 0 10px; 
+  margin-top: 0px;
+}
+td {
+  border: solid 1px #000;
+  border-style: solid none;
+  padding: 10px;
+}
+td:first-child {
+  border-left-style: solid;
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
+  padding-left: 50px;
+}
+td:last-child {
+  border-right-style: solid;
+  border-bottom-right-radius: 10px; 
+  border-top-right-radius: 10px; 
+}
+.table-container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.table thead th {
+  background-color: #35374B;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.table {
+  font-weight: bold;
+  font-family: 'Allerta';
+}
+
+.div-search {
+  background-color: #1C1D28;
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6.5vh;
+  top: 0;
+  margin-bottom: 0;
+}
+
+.div-search input[type="search"] {
+  margin: 10px;
+  padding: 5px;
+  width: 350px;
+  background-color: #F5F5F5;
+  color: white;
+  border-left-style: solid;
+  border-top-left-radius: 10px; 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  border-top-right-radius: 10px; 
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'Allerta';
+}
+
+.btnAdd{
+  background-color: #35374B;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-family: 'Allerta';
+}
+
+.btnAdd:hover {
+  background-color: #E7D3FB; /* Cambia esto al color que prefieras */
+  cursor: pointer;
+}
+
+.notificacion-img {
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
